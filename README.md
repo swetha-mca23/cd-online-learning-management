@@ -7,13 +7,13 @@
      git clone https://github.com/swetha-mca23/cd-online-learning-management
 + Install dependencies: 
      Navigate to the frontend directory and install frontend dependencies
-     $ cd frontend
-     $ npm install
-     $ npm start
+    +  $ cd frontend
+    +  $ npm install
+    +  $ npm start
    
 Next, open a new terminal tab, navigate to the backend directory and install backend dependencies
-    $ cd backend
-    $ npm install,npm init
+    +  $ cd backend
+    +   $ npm install,npm init
     
 + Set up Environment Variables:
 Create a .env file in both the frontend and backend directories and define the following variables in the .env file:
