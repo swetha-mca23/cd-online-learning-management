@@ -6,12 +6,12 @@
 + Clone the repository: 
      git clone https://github.com/swetha-mca23/cd-online-learning-management
 + Install dependencies: 
-     Navigate to the frontend directory and install frontend dependencies:
+     Navigate to the frontend directory and install frontend dependencies
      $ cd frontend
      $ npm install
      $ npm start
    
-Next, open a new terminal tab, navigate to the backend directory and install backend dependencies:
+Next, open a new terminal tab, navigate to the backend directory and install backend dependencies
     $ cd backend
     $ npm install,npm init
     
