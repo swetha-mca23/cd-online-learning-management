@@ -3,27 +3,26 @@
 <h2> Installation</h2>
 <h4>Follow these steps to set up online learning portal  on your local machine:</h4>
 
-1) Clone the repository: 
++ Clone the repository: 
      git clone https://github.com/swetha-mca23/cd-online-learning-management
-2) Install dependencies: 
++ Install dependencies: 
      Navigate to the client directory and install frontend dependencies:
-     cd frontend
-     npm install
-     npm start
+     $ cd frontend
+     $ npm install
+     $ npm start
    
 Next, open a new terminal tab, navigate to the server directory and install backend dependencies:
-    cd backend
-    npm install
-    npm init
-
-3)Set up Environment Variables:
+    $ cd backend
+    $ npm install,npm init
+    
++ Set up Environment Variables:
 Create a .env file in both the client and server directories and define the following variables in the .env file:
 
-4)Run the Backend Server:
++ Run the Backend Server:
 Navigate to the server directory and run:
 nodemon index.js
 
-5)Run the Frontend folder:
++ Run the Frontend folder:
 
 Navigate to the client directory and run:
 npm start
