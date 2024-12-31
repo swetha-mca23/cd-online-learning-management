@@ -1,36 +1,64 @@
 # cd-online-learning-management
 
 <h2> Installation</h2>
-1) Clone the repository:
-2) Install dependencies: like express,cors,mongoose,etc...
-3) Run the application: 
-      npm start
-4) Access the application at:
-     http://localhost:3000
+<h4>Follow these steps to set up online learning portal  on your local machine:</h4>
+
+1) Clone the repository: 
+git clone https://github.com/swetha-mca23/cd-online-learning-management
+2) Install dependencies: 
+Navigate to the client directory and install frontend dependencies:
+<div>
+cd client
+npm install
+</div>
+
+Next, open a new terminal tab, navigate to the server directory and install backend dependencies:
+<div>
+cd server
+npm install
+npm init
+</div>
+
+3)Set up Environment Variables:
+Create a .env file in both the client and server directories and define the following variables in the .env file:
+
+4)Run the Backend Server:
+Navigate to the server directory and run:
+nodemon index.js
+
+5)Run the Frontend folder:
+
+Navigate to the client directory and run:
+npm start
+
+After running this command, the project will start running locally at http://localhost:3000
 
 <h2>Technologies Used</h2>
 
-Frontend : React.js
-
-Backend : Node.js with Express.js
-
-Database : MongoDB 
-
-Authentication : JWT (JSON Web Tokens)
+React.js: Frontend library for building the user interface.
+Node.js: JavaScript runtime environment for running server-side code.
+Express.js: Backend framework for handling HTTP requests and response.
+MongoDB: Database for storing users datas.
+JWT (JSON Web Tokens): Used for user authentication and authorization.
 
 <h2>Features</h2>
 
-* User Management
+1) User Management
 
-Student and instructor registration.
+*Student and instructor registration.
+*User authentication and role-based access control.
 
-User authentication and role-based access control.
+2) Course Management
 
-* Course Management
+* Create, update, and delete courses.
+* Assign instructors to courses.
+  Content Delivery
 
-Create, update, and delete courses.
-
-Assign instructors to courses.
+3) Upload and manage course materials (videos, PDFs, quizzes, etc.).
+4) Interactive learning modules.
+5) Create and manage  assignments.
+6) Track student progress.
+7) Generate detailed reports on course performance.
 
 
 <h2>Overview</h2>
