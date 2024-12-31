@@ -40,16 +40,13 @@ JWT (JSON Web Tokens): Used for user authentication and authorization.
 <h2>Features</h2>
 
 1) User Management
-
-*Student and instructor registration.
-*User authentication and role-based access control.
+<p>Student and instructor registration.</p>
+<p>User authentication and role-based access control.</p>
 
 2) Course Management
-
-* Create, update, and delete courses.
-* Assign instructors to courses.
-  Content Delivery
-
+<p>Create, update, and delete courses.</p>
+<p>Assign instructors to courses.</p>
+  
 3) Upload and manage course materials (videos, PDFs, quizzes, etc.).
 4) Interactive learning modules.
 5) Create and manage  assignments.
