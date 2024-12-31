@@ -31,7 +31,7 @@ After running this command, the project will start running locally at http://loc
 
 <h2>Technologies Used</h2>
 
-+ React.js: Frontend library for building the user interface.
++ React.js: Javascript Frontend library for building user interface.
 + Node.js: JavaScript runtime environment for running server-side code.
 + Express.js: Backend framework for handling HTTP requests and response.
 + MongoDB: Database for storing users datas.
