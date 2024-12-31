@@ -1,0 +1,113 @@
+/* Overall styling for the register container */
+.register-container {
+    display: flex; /* Enables flexbox */
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(to right, #dbe9f4 50%, #ffffff 50%); /* Light blue on left, white on right */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+  }
+  
+  /* Register form container styling */
+  .register-form-container {
+    display: flex; /* Enables side-by-side layout */
+    max-width: 1000px; /* Restrict the width of the container */
+    width: 100%; /* Make it responsive */
+    background-color: #fff; /* White background */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Prevents content from overflowing the border radius */
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    padding: 20px 30px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Left side styling (form) */
+  .form-side {
+    flex: 1; /* Takes up 50% of the container */
+    padding: 2rem; /* Space inside the container */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    background: transparent; /* Keeps the gradient background visible */
+  }
+  
+  /* Right side styling (image) */
+  .image-side {
+    flex: 1; /* Takes up 50% of the container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent; /* Keeps the gradient background visible */
+  }
+  
+  .image-side img {
+    width: 100%; /* Makes image responsive */
+    object-fit: cover; /* Ensures the image covers its container */
+  }
+  
+  /* Heading styling */
+  .register-heading {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    font-weight: lighter;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  /* Register button styling */
+  .register-btn {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0F52BA; /* Blue color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-btn:hover {
+    background-color: #084e9f; /* Slightly darker blue */
+  }
+  
+  /* Login link styling */
+  .login-link {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .login-link a {
+    color: #0F52BA;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  

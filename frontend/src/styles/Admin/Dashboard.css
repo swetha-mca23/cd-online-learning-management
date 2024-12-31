@@ -1,0 +1,29 @@
+.dashboard-container {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .main-content {
+    margin-left: 250px; /* Space for sidebar */
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #fff;
+  }
+  
+  .dashboard-stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .stat-card {
+    background-color: var(--primary-color);
+    color: #fff !important;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+  }
+  
