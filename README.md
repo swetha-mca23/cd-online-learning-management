@@ -13,19 +13,19 @@
    
 Next, open a new terminal tab, navigate to the backend directory and install backend dependencies
     +  $ cd backend
-    +   $ npm install,npm init
+    +  $ npm install,npm init
     
 + Set up Environment Variables:
 Create a .env file in both the frontend and backend directories and define the following variables in the .env file:
 
 + Run the Backend Server:
 Navigate to the backend directory and run:
-   $ nodemon index.js
+  +  $ nodemon index.js
 
 + Run the Frontend folder:
 
 Navigate to the client directory and run:
-   $ npm start
+  +  $ npm start
 
 After running this command, the project will start running locally at http://localhost:3000
 
