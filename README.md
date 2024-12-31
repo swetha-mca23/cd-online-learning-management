@@ -11,9 +11,9 @@
     +  $ npm install
     +  $ npm start
    
-Next, open a new terminal tab, navigate to the backend directory and install backend dependencies
-    +  $ cd backend
-    +  $ npm install,npm init
+Next, open a new terminal tab, navigate to the backend directory and install backend dependencies:
+    +   cd backend
+    +   npm install,npm init
     
 + Set up Environment Variables:
 Create a .env file in both the frontend and backend directories and define the following variables in the .env file:
