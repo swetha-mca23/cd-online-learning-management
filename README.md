@@ -2,7 +2,7 @@
 
 <h2> Installation</h2>
 1) Clone the repository:
-2) Install dependencies: like express,cors,mongoose
+2) Install dependencies: like express,cors,mongoose,etc...
 3) Run the application: 
       npm start
 4) Access the application at:
