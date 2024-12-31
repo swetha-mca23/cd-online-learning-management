@@ -7,11 +7,12 @@
      git clone https://github.com/swetha-mca23/cd-online-learning-management
 2) Install dependencies: 
      Navigate to the client directory and install frontend dependencies:
-     cd client
+     cd frontend
      npm install
+     npm start
    
 Next, open a new terminal tab, navigate to the server directory and install backend dependencies:
-    cd server
+    cd backend
     npm install
     npm init
 
@@ -31,11 +32,11 @@ After running this command, the project will start running locally at http://loc
 
 <h2>Technologies Used</h2>
 
-React.js: Frontend library for building the user interface.
-Node.js: JavaScript runtime environment for running server-side code.
-Express.js: Backend framework for handling HTTP requests and response.
-MongoDB: Database for storing users datas.
-JWT (JSON Web Tokens): Used for user authentication and authorization.
++ React.js: Frontend library for building the user interface.
++ Node.js: JavaScript runtime environment for running server-side code.
++ Express.js: Backend framework for handling HTTP requests and response.
++ MongoDB: Database for storing users datas.
++ JWT (JSON Web Tokens): Used for user authentication and authorization.
 
 <h2>Features</h2>
 
